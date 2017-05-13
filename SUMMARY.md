@@ -2,9 +2,9 @@
 
 ## QUICK START
 
-* [Getting Started](http://reactjs.cn/react/docs/getting-started.html)
-* [Tutorial](http://reactjs.cn/react/docs/tutorial.html)
-* [Thinking in React](http://reactjs.cn/react/docs/thinking-in-react.html)
+* [Getting Started](docs/getting-started.zh-CN.md)
+* [Tutorial](docs/tutorial.zh-CN.md)
+* [Thinking in React](docs/thinking-in-react.zh-CN.md)
 
 ## COMMUNITY RESOURCES
 
