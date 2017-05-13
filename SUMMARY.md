@@ -44,7 +44,37 @@
 
 ## REFERENCE
 
+* [Top-Level API](http://reactjs.cn/react/docs/top-level-api.html)
+* [Component API](http://reactjs.cn/react/docs/component-api.html)
+* [Component Specs and Lifecycle](http://reactjs.cn/react/docs/component-specs.html)
+* [Supported Tags and Attributes](http://reactjs.cn/react/docs/tags-and-attributes.html)
+* [Event System](http://reactjs.cn/react/docs/events.html)
+* [DOM Differences](http://reactjs.cn/react/docs/dom-differences.html)
+* [Special Non-DOM Attributes](http://reactjs.cn/react/docs/special-non-dom-attributes.html)
+* [Reconciliation](http://reactjs.cn/react/docs/reconciliation.html)
+* [Web Components](http://reactjs.cn/react/docs/webcomponents.html)
+* [React \(Virtual\) DOM Terminology](http://reactjs.cn/react/docs/glossary.html)
+
 ## TIPS
+
+* [Introduction](http://reactjs.cn/react/tips/introduction.html)
+* [Inline Styles](http://reactjs.cn/react/tips/inline-styles.html)
+* [If-Else in JSX](http://reactjs.cn/react/tips/if-else-in-JSX.html)
+* [Self-Closing Tag](http://reactjs.cn/react/tips/self-closing-tag.html)
+* [Maximum Number of JSX Root Nodes](http://reactjs.cn/react/tips/maximum-number-of-jsx-root-nodes.html)
+* [Shorthand for Specifying Pixel Values in style props](http://reactjs.cn/react/tips/style-props-value-px.html)
+* [Type of the Children props](http://reactjs.cn/react/tips/children-props-type.html)
+* [Value of null for Controlled Input](http://reactjs.cn/react/tips/controlled-input-null-value.html)
+* [componentWillReceiveProps Not Triggered After Mounting](http://reactjs.cn/react/tips/componentWillReceiveProps-not-triggered-after-mounting.html)
+* [Props in getInitialState Is an Anti-Pattern](http://reactjs.cn/react/tips/props-in-getInitialState-as-anti-pattern.html)
+* [DOM Event Listeners in a Component](http://reactjs.cn/react/tips/dom-event-listeners.html)
+* [Load Initial Data via AJAX](http://reactjs.cn/react/tips/initial-ajax.html)
+* [False in JSX](http://reactjs.cn/react/tips/false-in-jsx.html)
+* [Communicate Between Components](http://reactjs.cn/react/tips/communicate-between-components.html)
+* [Expose Component Functions](http://reactjs.cn/react/tips/expose-component-functions.html)
+* [this.props.children undefined](http://reactjs.cn/react/tips/children-undefined.html)
+* [Use React with Other Libraries](http://reactjs.cn/react/tips/use-react-with-other-libraries.html)
+* [Dangerously Set innerHTML](http://reactjs.cn/react/tips/dangerously-set-inner-html.html)
 
 
 
