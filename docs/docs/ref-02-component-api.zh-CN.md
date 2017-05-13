@@ -10,7 +10,6 @@ next: component-specs-zh-CN.html
 
 当渲染时，React 组件的实例在 React 内部被创建。这些实例在随后的渲染中被重复使用，并可以在组件方法中通过 `this` 访问。唯一的在 React 之外获取 React 组件实例句柄的方法是保存 `React.render` 的返回值。在其它组件内，你可以使用 [refs](/react/docs/more-about-refs-zh-CN.html) 得到相同的结果。
 
-
 ### setState
 
 ```javascript
@@ -19,6 +18,7 @@ setState(
   [function callback]
 )
 ```
+
 执行一个 nextState 到当前 state 的浅合并。这是你从事件处理器和服务器请求回调用来触发 UI 更新的主要手段。
 
 第一个参数可以是一个对象（包含0或者多个keys来更新）或者一个（state 和 props的）函数，它返回一个包含要更新的keys的对象。
@@ -41,14 +41,13 @@ setState(function(previousState, currentProps) {
 
 > 注意:
 >
-> *绝对不要* 直接改变 `this.state`，因为之后调用 `setState()` 可能会替换掉你做的改变。把 `this.state` 当做是不可变的。
+> _绝对不要_ 直接改变 `this.state`，因为之后调用 `setState()` 可能会替换掉你做的改变。把 `this.state` 当做是不可变的。
 >
 > `setState()` 不会立刻改变 `this.state`，而是创建一个即将处理的 state 转变。在调用该方法之后访问 `this.state` 可能会返回现有的值。
 >
 > 对 `setState` 的调用没有任何同步性的保证，并且调用可能会为了性能收益批量执行。
 >
 > `setState()` 将总是触发一次重绘，除非在 `shouldComponentUpdate()` 中实现了条件渲染逻辑。如果可变对象被使用了，但又不能在 `shouldComponentUpdate()` 中实现这种逻辑，仅在新 state 和之前的 state 存在差异的时候调用 `setState()` 可以避免不必要的重新渲染。
-
 
 ### replaceState
 
@@ -65,7 +64,6 @@ replaceState(
 >
 > 这个方法在从 `React.Component` 扩展的 ES6 `class` 组件里不可用。它也许会在未来的 React 版本中被完全移除。
 
-
 ### forceUpdate
 
 ```javascript
@@ -80,7 +78,6 @@ forceUpdate(
 
 通常你应该试着避免所有对 `forceUpdate()` 的使用并且在 `render()` 里只从 `this.props` 和 `this.state` 读取。这会使你的组件 "纯粹" 并且你的组件会更简单和高效。
 
-
 ### getDOMNode
 
 ```javascript
@@ -91,10 +88,9 @@ DOMElement getDOMNode()
 
 > Note:
 >
-> getDOMNode 被废弃了，已经被 [React.findDOMNode()] 替换(/react/docs/top-level-api-zh-CN.html#react.finddomnode).
+> getDOMNode 被废弃了，已经被 \[React.findDOMNode\(\)\] 替换\(/react/docs/top-level-api-zh-CN.html\#react.finddomnode\).
 >
 > 这个方法在从 `React.Component` 扩展的 ES6 `class` 组件里不可用。它也许会在未来的 React 版本中被完全移除。
-
 
 ### isMounted
 
@@ -107,7 +103,6 @@ bool isMounted()
 > 注意:
 >
 > 这个方法在从 `React.Component` 扩展的 ES6 `class` 组件里不可用。它也许会在未来的 React 版本中被完全移除。
-
 
 ### setProps
 
@@ -144,3 +139,6 @@ replaceProps(
 > 注意:
 >
 > 这个方法在从 `React.Component` 扩展的 ES6 `class` 组件里不可用。它也许会在未来的 React 版本中被完全移除。
+
+
+
